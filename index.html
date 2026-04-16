@@ -1,14 +1,166 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FiftyFour</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FiftyFour – Das klassische Würfelspiel für iOS und Android. Spiele gegen Freunde oder Computer-Gegner.">
+    <meta name="keywords" content="FiftyFour, Würfelspiel, Dice Game, iOS, Android, Multiplayer, Brettspiel">
+    <meta name="author" content="FiftyFour App">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fiftyfour-app.de/">
+    <meta property="og:title" content="FiftyFour – Das klassische Würfelspiel">
+    <meta property="og:description" content="Erlebe den Nervenkitzel von FiftyFour – dem zeitlosen Würfelspiel für unterwegs. Jetzt für iOS und Android.">
+    <meta property="og:image" content="https://fiftyfour-app.de/og-image.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://fiftyfour-app.de/">
+    <meta property="twitter:title" content="FiftyFour – Das klassische Würfelspiel">
+    <meta property="twitter:description" content="Erlebe den Nervenkitzel von FiftyFour – dem zeitlosen Würfelspiel für unterwegs. Jetzt für iOS und Android.">
+    <meta property="twitter:image" content="https://fiftyfour-app.de/og-image.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎲</text></svg>">
+    
+    <title>FiftyFour – Das Würfelspiel</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>FiftyFour</h1>
-  <p>Offizielle App-Seite</p>
-  <p>Support: deine-email@example.com</p>
-  <p><a href="privacy.html">Datenschutz</a></p>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <div class="dice-icon">🎲</div>
+                <h1>54</h1>
+            </div>
+            <nav>
+                <a href="#features">Features</a>
+                <a href="#download">Download</a>
+                <a href="#support">Support</a>
+                <a href="privacy.html">Datenschutz</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Das klassische Würfelspiel</h2>
+                <p class="subtitle">Erlebe den Nervenkitzel von FiftyFour – dem zeitlosen Würfelspiel für unterwegs.</p>
+                <div class="cta-buttons">
+                    <a href="#download" class="btn btn-primary">Jetzt herunterladen</a>
+                    <a href="#features" class="btn btn-secondary">Mehr erfahren</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2>Warum FiftyFour?</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🎮</div>
+                        <h3>Einfach & Spaßig</h3>
+                        <p>Schnell zu lernen, schwer zu meistern. Das perfekte Spiel für zwischendurch.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">👥</div>
+                        <h3>Multiplayer</h3>
+                        <p>Spiele mit Freunden oder Familie – bis zu 8 Spieler gleichzeitig am selben Gerät.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🤖</div>
+                        <h3>Computer-Gegner</h3>
+                        <p>Spiele alleine gegen intelligente KI-Gegner mit verschiedenen Schwierigkeitsstufen.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎨</div>
+                        <h3>Personalisierbar</h3>
+                        <p>Wähle aus verschiedenen Würfelfarben und Designs – jeder Spieler mit eigenem Stil.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>Statistiken</h3>
+                        <p>Verfolge deine Siege, Niederlagen und Würfel-Performance über alle Spiele hinweg.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌙</div>
+                        <h3>Dark Mode</h3>
+                        <p>Mehrere Themes inklusive Dark Mode und atmosphärischem Tavern-Design.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-to-play" class="how-to-play">
+            <div class="container">
+                <h2>So funktioniert's</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3>Spieler hinzufügen</h3>
+                        <p>Erstelle Profile für alle Mitspieler oder füge Computer-Gegner hinzu.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3>Würfeln</h3>
+                        <p>Würfle und sammle Punkte – aber Vorsicht vor der Sechs!</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3>Taktieren</h3>
+                        <p>Sichere deine Punkte rechtzeitig oder riskiere einen weiteren Wurf.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <h3>Gewinnen</h3>
+                        <p>Erreiche als Erster 54 Punkte und gewinne das Spiel!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="download">
+            <div class="container">
+                <h2>Jetzt herunterladen</h2>
+                <p>FiftyFour ist verfügbar für iOS und Android.</p>
+                <div class="download-buttons">
+                    <a href="#" class="store-badge" aria-label="Download on the App Store">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='40' viewBox='0 0 120 40'%3E%3Crect fill='%23000' width='120' height='40' rx='5'/%3E%3Ctext x='60' y='24' font-family='Arial' font-size='10' fill='%23fff' text-anchor='middle'%3EApp Store%3C/text%3E%3C/svg%3E" alt="Download on the App Store">
+                    </a>
+                    <a href="#" class="store-badge" aria-label="Get it on Google Play">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='135' height='40' viewBox='0 0 135 40'%3E%3Crect fill='%23000' width='135' height='40' rx='5'/%3E%3Ctext x='67' y='24' font-family='Arial' font-size='10' fill='%23fff' text-anchor='middle'%3EGoogle Play%3C/text%3E%3C/svg%3E" alt="Get it on Google Play">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="support" class="support">
+            <div class="container">
+                <h2>Support & Kontakt</h2>
+                <p>Hast du Fragen, Feedback oder technische Probleme? Wir helfen gerne weiter!</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <p>E-Mail: <a href="mailto:support@fiftyfour-app.de">support@fiftyfour-app.de</a></p>
+                    </div>
+                </div>
+                <div class="support-links">
+                    <a href="privacy.html" class="support-link">Datenschutzerklärung</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 FiftyFour. Alle Rechte vorbehalten.</p>
+            <nav class="footer-nav">
+                <a href="privacy.html">Datenschutz</a>
+                <a href="#support">Kontakt</a>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
